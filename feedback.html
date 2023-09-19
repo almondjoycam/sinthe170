@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+
+    <head>
+        <meta name="charset" content="utf-8">
+        <meta name="viewport" content="width:device-width, initial-scale:0">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <title>Considering Sinthe in Context | Home</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sinthe.html">What is Sinthe?</a></li>
+                    <li><a href="analogues.html">Similar Events</a></li>
+                    <li><a href="solution.html">A Solution</a></li>
+                    <li><a href="feedback.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact</h1>
+            <form id="contact-form" name="contact-form" method="post"
+                action="scripts/form.php">
+                <ol>
+                    <li>
+                        <label for="name-field">Name:</label>
+                        <input type="text" name="name" id="name-field" required>
+                    </li>
+                    <li>
+                        <label for="email-field">Email: </label>
+                        <input type="email" name="email" id="email-field"
+                            required>
+                    </li>
+                    <li>
+                        <label for="comments-field">Comments:</label>
+                        <textarea name="comments" id="comments-field"
+                            placeholder="What do you think?" required></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" name="submit" id="submit"
+                            value="Submit">
+                    </li>
+                </ol>
+            </form>
+        </main>
+
+        <footer>
+            <small>&copy; 2023 almondjoycam</small>
+        </footer>
+    </body>
+
+</html>

@@ -125,6 +125,22 @@ a {
 a:hover {
     border-bottom: 1px solid rgb(47, 79, 79, 0.8);
 }
+blockquote {
+    border-left: 2px solid rgb(47, 79, 79, 0.8);
+    padding-left: 2em;
+    margin-left: 1em;
+    quotes: '\201C' '\201D';
+}
+blockquote::before {
+    content: open-quote;
+    font: 2em / 1 'Montagu Slab';
+    position: relative;
+    left: -20px;
+}
+blockquote::after {
+    content: close-quote;
+    font: 1em 'Montagu Slab';
+}
 
 /* Footer */
 footer {

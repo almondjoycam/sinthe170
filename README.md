@@ -13,7 +13,7 @@ This website will be presenting a public health plan for the Sinthe abuse crisis
     - [Withdrawal Symptoms overview](https://www.ncbi.nlm.nih.gov/books/NBK459239/)
     - [Naltrexone for treating alcohol addiction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4781804/#CR15)
     - [In-depth analysis of IV extended-release naltrexone](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2010.05900.x)
-- [ ] Format blockquotes
+- [x] Format blockquotes
 
 ## Sitemap
 

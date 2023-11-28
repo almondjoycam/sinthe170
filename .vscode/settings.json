@@ -1,0 +1,7 @@
+{
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.wordWrap": "wordWrapColumn"
+  }
+}

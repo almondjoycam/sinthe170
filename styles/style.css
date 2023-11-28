@@ -33,7 +33,7 @@ nav {
     padding: 0.5em 0;
     position: relative;
     top: 0;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(69, 79, 79, 0.5));
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(47, 69, 69, 0.69));
 }
 nav ul {
     margin: 0;
@@ -54,8 +54,8 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
     text-align: inherit;
-    letter-spacing: 1px;
-    /* font-weight: bold; */
+    letter-spacing: 0.2em;
+    font-weight: bold;
     color: azure;
     text-shadow:
         1px 0 darkslategrey,
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montagu Slab', 'Franklin Gothic Medium', 'Arial Wide', Arial, sans-serif
 }
 main {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 aside {
@@ -121,6 +121,7 @@ aside {
 a {
     text-decoration: none;
     color: darkslategrey;
+    border-bottom: 1px dotted rgb(47, 79, 79, 0.8);
 }
 a:hover {
     border-bottom: 1px solid rgb(47, 79, 79, 0.8);
@@ -136,6 +137,11 @@ blockquote::before {
     font: 2em / 1 'Montagu Slab';
     position: relative;
     left: -20px;
+}
+@media screen and (hover: none) {
+    a {
+        border-bottom: 1px solid rgb(47, 79, 79, 0.8);
+    }
 }
 @media screen and (min-width: 1024px) {
     main {

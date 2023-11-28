@@ -14,6 +14,7 @@ This website will be presenting a public health plan for the Sinthe abuse crisis
     - [Naltrexone for treating alcohol addiction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4781804/#CR15)
     - [In-depth analysis of IV extended-release naltrexone](https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/j.1749-6632.2010.05900.x)
 - [x] Format blockquotes
+- [x] Fix the issue with mobile displays
 
 ## Sitemap
 

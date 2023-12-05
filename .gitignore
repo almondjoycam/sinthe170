@@ -1,3 +1,4 @@
 articles
 *.psd
 .vscode
+.vscode/settings.json

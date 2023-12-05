@@ -3,5 +3,6 @@
     "editor.formatOnSave": false,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
     "editor.wordWrap": "wordWrapColumn"
-  }
+  },
+  "editor.fontFamily": "'Hack', 'monospace', monospace"
 }
